@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodydream</title> 
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="script.js">
+    
+</head>
+<body>
+   <div class="head">
+
+    <div class="logo">
+        <img src="Logotipo.png" alt="imagen"width="100px">
+     
+     
+    </div>
+
+    <nav class="navbar">
+      <a href="index.html">Menu</a>
+      <a href="dietaas.html">Dietas</a>
+      <a href="ejercicioss.html">Ejercicios</a>
+    </nav>
+
+   </div>
+
+<header class="content header">
+    <h2 class="title item">bienvenidos</h2>
+    <p>
+        Esta es una pagina en donde podras encontrar dietas y ejercicios para mejorar tu salud.
+    <p>
+        <div class="body">
+        <img src="Imagotipo.png" alt=""width="200">
+        </div>
+
+
+
+</header>
+
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fab fa-angular"></i>
+        
+        <h3>Dietas</h3>
+        <p>Aqui podras ver las distintas dietas que tenemos para ti</p>
+        <figure>
+            <img src="icono2.png" alt=""width="200">
+        </figure>
+        <a href="dietaas.html">Abrir</a>
+    </div>
+    <div class="box">
+        <i class="fab fa-apple"></i>
+       
+        <h3>Ejercicios</h3>
+        <p>Aqui podras ver los ejercicios que hemos 
+            preparado para ti</p>
+            <figure>
+                <img src="icono1.png" alt=""width="200">
+            </figure>
+            <a href="ejercicioss.html">Abrir</a>
+    </div>
+    
+
+</div>
+<section class="content about">
+<h2 class="title">Informacion</h2>
+<p>
+    Alcanzar un peso saludable puede ayudarlo a controlar el colesterol, la presión arterial y el azúcar en la sangre. También puede ayudarlo a prevenir enfermedades relacionadas con el peso, tales como las enfermedades cardiacas, la diabetes, la artritis y algunos cánceres.
+</p>
+</section>
+<section class="content imc">
+    <h2 class="title">Calcula tu IMC</h2>
+    <form id="formulario" onsubmit="calcular(); return false">
+        <br>
+        <label for="altura">Escribe tu ALTURA (cm):</label>
+        <input type="text" id="altura" required="required">
+        <br>
+        <label for="peso">Escribe tu PESO (kg):</label>
+        <input type="text" id="peso" required="required">
+        <br>
+        <button type="submit">Calcular IMC</button>
+        <label id="resultado"></label>
+      </form>
+    <script src="script.js"></script>
+    <p>
+        El IMC es un método de evaluación fácil y económico para la categoría de peso: bajo peso, peso saludable, sobrepeso, y obesidad. Si su IMC es menos de 18.5, se encuentra dentro del rango de peso insuficiente. Si su IMC es entre 18.5 y 24.9, se encuentra dentro del rango de peso normal o saludable. Si su IMC esta entre 25.0 y 29.9, se encuentra dentro del rango de sobrepeso. Si su IMC es 30.0 o superior se encuentra dentro del rango de obesidad.
+    </p>
+    </section>
+
+</body>
+</html>
